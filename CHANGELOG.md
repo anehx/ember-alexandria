@@ -1,3 +1,23 @@
+# [11.0.0](https://github.com/projectcaluma/ember-alexandria/compare/v10.13.3...v11.0.0) (2026-08-18)
+
+
+* feat(category)!: validate file extensions per allowed mime type ([a20b3ca](https://github.com/projectcaluma/ember-alexandria/commit/a20b3cadda27c19ec0843b6fd85ba5b4cd73b828))
+
+
+### Bug Fixes
+
+* **upload:** compute accept attribute once the categories are loaded ([bf82a9d](https://github.com/projectcaluma/ember-alexandria/commit/bf82a9db7a503a92a954e0097265a56c2aa69c5b))
+* **upload:** don't call `afterUpload` if the upload was rejected ([5234acd](https://github.com/projectcaluma/ember-alexandria/commit/5234acd6987eebf4f42a2211f083fb2302b2fd96))
+
+
+### BREAKING CHANGES
+
+* This requires Alexandria 10.0.0 or later, as the
+`allowed_mime_types` field of a category changed from an array of mime
+types (`["image/jpeg"]`) to an object of mime type to file extensions
+(`{"image/jpeg": ["jpeg"]}`). Consumers reading
+`category.allowedMimeTypes` must be adapted accordingly.
+
 ## [10.13.3](https://github.com/projectcaluma/ember-alexandria/compare/v10.13.2...v10.13.3) (2026-06-01)
 
 
