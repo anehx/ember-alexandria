@@ -1,3 +1,10 @@
+## [11.0.1](https://github.com/projectcaluma/ember-alexandria/compare/v11.0.0...v11.0.1) (2026-08-19)
+
+
+### Bug Fixes
+
+* **category:** list guessed extensions in the accept attribute ([12f71b6](https://github.com/projectcaluma/ember-alexandria/commit/12f71b654805835264ba66c36934ccdb956d0cb2))
+
 # [11.0.0](https://github.com/projectcaluma/ember-alexandria/compare/v10.13.3...v11.0.0) (2026-08-18)
 
 
